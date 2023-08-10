@@ -29,3 +29,10 @@ Al finalizar, los dashboards de Grafana y las reglas de Prometheus se combinaron
 Se adjunta repositorio de Prometheus y Grafana para su documentación
 
 Repositorio Prometheus | Grafana → https://github.com/prometheus-operator/kube-prometheus
+
+Use Harbor para el almacenamiento de imágenes. Complementando esta elección, configure LetsEncrypt para la administración de certificados en Harbor. La elección de Harbor como repositorio de imágenes se basa en su robustez y capacidad para gestionar de manera eficiente los artefactos de la aplicación. Al aprovechar LetsEncrypt,  garantizo la seguridad y confiabilidad de las comunicaciones mediante la administración automatizada de certificados, lo que mejora la integridad y la encriptación de los datos transferidos. Esta infraestructura  ermite desplegar y actualizar la aplicación de manera más segura, al tiempo que garantiza un flujo de trabajo eficiente. 
+La URL es: https://harbor.101si.ar/
+
+Para la instalación me base en el siguiente link:
+→ https://computingforgeeks.com/install-harbor-registry-centos-debian-ubuntu/?expand_article=1
+→ https://blog.295devops.com/harbor-como-repositorio-privado-en-kubernetes
