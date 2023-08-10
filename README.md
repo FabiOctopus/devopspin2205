@@ -4,7 +4,7 @@
 
 ## Intro
 
-El proyecto tiene como principal objetivo poner en práctica los conocimientos adquiridos a travéz de toda la cursada, realizando una integración de diversas herramientas y tecnologías vistas en clase. 
+El proyecto tiene como principal objetivo poner en práctica los conocimientos adquiridos a traves de toda la cursada, realizando una integración de diversas herramientas y tecnologías vistas en clase. 
 
 La infraestructura que utilice como punto de partida para realizar todas las tareas necesarias es Cloud. Procedi con el despliegue de la infraestructura utilizando Terraform, lo que hice fue desplegar un cluster de EKS, ademas configure el backend para almacenar el estado del despliegue en un bucket S3, seguido a la creación de una VPC para la comunicación del clúster y los nodos. 
 
