@@ -34,5 +34,7 @@ Use Harbor para el almacenamiento de imágenes. Complementando esta elección, c
 La URL es: https://harbor.101si.ar/
 
 Para la instalación me base en el siguiente link:
+
 → https://computingforgeeks.com/install-harbor-registry-centos-debian-ubuntu/?expand_article=1
+
 → https://blog.295devops.com/harbor-como-repositorio-privado-en-kubernetes
